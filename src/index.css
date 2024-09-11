@@ -1,0 +1,1158 @@
+/* font-family: "Montserrat", sans-serif; */
+/* font-family: "Rubik", sans-serif; */
+/* font-family: "Anton", sans-serif; */
+/* font-family: "Noto Sans", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.NavButton {
+    transform: skew(-10deg);
+}
+
+#homeSlider {
+    background: linear-gradient(rgba(14, 15, 17, 0.19), rgb(17, 18, 20)), url("../src/assets/home-1.png") right center no-repeat rgb(17, 18, 20);
+    transition: all 0.3s ease 0s;
+    height: 70vh;
+    overflow: hidden !important;
+}
+
+.sliderWrapper span.bgTxt {
+    overflow: hidden;
+    color: rgba(27, 28, 30, 0.835);
+    font-size: 310px;
+    letter-spacing: -4.5px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    text-align: center !important;
+}
+
+.sliderTitle {
+    z-index: 888;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+/* project section  */
+.projectBox:hover .projectAbout {
+    transform: translateY(0);
+}
+
+
+
+.sliderSubjectImg {
+    z-index: 888;
+    /* background: linear-gradient(rgba(14, 15, 17, 0) 28px, rgba(14, 15, 17, 0) 66%, rgb(17, 18, 20)) 0% 0% / 100%, url("../image/mizan.png") center center no-repeat;
+    margin-bottom: -15px !important; */
+    background: linear-gradient(rgba(14, 15, 17, 0) 28px, rgba(14, 15, 17, 0) 66%, rgb(17, 18, 20)) 0% 0% / 100%, url("../src/assets/mizan.png") no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* margin-bottom: -65px !important; */
+}
+
+.socialMedia {
+    z-index: 888;
+}
+
+.socialMedia a {
+    background: rgb(42, 43, 43);
+    width: 42px;
+    height: 42px;
+    color: rgb(121, 134, 159);
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 30px;
+}
+
+.socialMedia a:hover {
+    background-color: rgb(255, 89, 90);
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+.expContent {
+    background: rgb(196, 196, 196);
+    transform: skew(-6deg);
+    z-index: 1;
+}
+
+.expContent img {
+    color: rgb(196, 196, 196);
+    filter: grayscale(100%);
+    margin-bottom: 60px !important;
+}
+
+.expContent h2 {
+    display: flex;
+    float: right;
+    padding-left: 250px;
+    line-height: 23px;
+}
+
+.expContent h2 span {
+    line-height: 45px;
+    font-family: Anton, sans-serif;
+}
+
+.expContent2 {
+    width: 270px;
+    height: 390px;
+    transform: skew(-4deg);
+    margin-top: 105px !important;
+}
+
+.expContent2 h2 span {
+    font-size: 76px;
+    line-height: 45px;
+}
+
+.expContent2 h2 {
+    line-height: 23px;
+    padding-right: 50px;
+}
+
+.expContent2 img {
+    width: 270px;
+    height: 295px;
+}
+
+.expTitle {
+    line-height: 1.5;
+}
+
+
+
+.applogo,
+.weblogo,
+.productlogo {
+    transform: skew(2deg);
+}
+
+.appDesign,
+.appTitle,
+.webTitle,
+.productTitle {
+    line-height: 40px;
+    transform: skew(5deg);
+}
+
+.appDesign,
+.webDesign,
+.productDesign {
+    border: 1px solid rgb(201, 207, 217);
+    transform: skew(-5deg);
+}
+
+.appDesign p.appDec,
+.webDec,
+.productDec {
+    line-height: 30px;
+    transform: skew(5deg);
+}
+
+.webDesign:hover,
+.appDesign:hover,
+.productDesign:hover {
+    background: rgb(255, 89, 90);
+    transition: all 0.3s ease 0s;
+    box-shadow: rgba(255, 89, 90, 0.7) 0px 8px 11px;
+    color: rgb(255, 255, 255) !important;
+}
+
+.webDesign:hover .webDec,
+.appDesign:hover .appDec,
+.productDesign:hover .productDec {
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
+}
+
+.webDesign:hover .weblogo,
+.appDesign:hover .applogo,
+.productDesign:hover .productlogo {
+    background: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
+}
+
+.addressTitle p {
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(135, 144, 157);
+    font-family: Rubik, sans-serif;
+}
+
+.formContent {
+    z-index: 999 !important;
+}
+
+
+.icon i.bi.bi-geo-alt,
+i.bi-envelope,
+i.bi-telephone {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.address .text h2 {
+    color: rgb(66, 78, 96);
+    line-height: 20px;
+}
+
+.address .text p {
+    color: rgb(19, 34, 56);
+    line-height: 35px !important;
+}
+
+form {
+    overflow: hidden;
+    margin-top: 70px;
+    padding-left: 5px;
+}
+
+input#number {
+    width: 25%;
+    margin-right: 10px;
+}
+
+input#subject {
+    width: 60.82%;
+}
+
+input,
+textarea {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    outline: none;
+    width: 90%;
+    padding: 10px 0px !important;
+    margin-left: 10px !important;
+    margin-bottom: 30px !important;
+    border-bottom: 2px solid rgb(230, 232, 235) !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-size: 20px;
+    line-height: 24px;
+    color: rgb(121, 134, 159);
+    font-weight: 400;
+    font-family: Rubik, sans-serif;
+}
+
+textarea {
+    resize: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0px;
+}
+
+.footerWrrapper {
+    overflow: hidden;
+    background: rgb(12, 12, 14);
+    padding: 140px 0px 80px;
+}
+
+a.text-center.footerLogo img {
+    width: 46px;
+}
+
+.FooterMedia {
+    z-index: 888;
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+}
+
+.footerNav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.Footerlink {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+    color: rgb(121, 134, 159) !important;
+    font-family: Rubik, sans-serif !important;
+}
+
+/* Contact section Design end here  */
+.scrollIcon {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.scrollTop i {
+    color: rgb(255, 89, 90);
+    font-size: 30px;
+}
+
+
+/* skills animation  */
+/* 
+@keyframes leftToRight {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes rightToLeft {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.animate-leftToRight {
+    animation: leftToRight 40s linear infinite;
+}
+
+.animate-rightToLeft {
+    animation: rightToLeft 40s linear infinite;
+} */
+
+
+
+@media only screen and (max-width: 1400px) {
+
+    .sliderWrapper span.bgTxt {
+        font-size: 240px;
+    }
+
+    #homeSlider {
+        height: 89vh;
+    }
+
+    .sliderContent1 h1 {
+        font-size: 38px;
+    }
+
+    .projectBox {
+        width: 320px;
+        height: 315px;
+        margin: 0px 25px 42px;
+    }
+
+    .expTitle,
+    .servicesTitle h1,
+    .portfolioTitle h1 {
+        font-size: 53px;
+    }
+
+    .aboutImgBox img {
+        width: 110.90%;
+    }
+
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    #homeSlider {
+        height: 72.5vh;
+    }
+
+    .sliderWrapper .bgTxt {
+        font-size: 218px !important;
+    }
+
+    .PortfolioBgWrapper span.PortfolioBgTxt {
+        font-size: 265px;
+    }
+
+    .AboutBgWrapper span.aboutBgTxt {
+        font-size: 260px;
+        top: 40px;
+    }
+
+    .sliderContent1 .slider-h4 {
+        margin-top: 156px;
+    }
+
+    .sliderTitle {
+        margin-bottom: -5px;
+    }
+
+    .sliderContent1 p {
+        font-size: 20px;
+        margin-bottom: -5px;
+    }
+
+    .sliderSubjectImg {
+        background-size: 109%;
+    }
+
+    .expContent,
+    .expContent2 img {
+        max-width: 240px;
+    }
+
+    img.img-fluid {
+        max-width: 210px;
+    }
+
+    .expContent3 .expTitle,
+    .servicesTitle h1,
+    .portfolioTitle h1 {
+        font-size: 44px;
+    }
+
+    .projectFilter li {
+        padding: 20px;
+    }
+
+    .projectBox {
+        width: 280px;
+        height: 269px;
+        margin: 0px 15px 35px;
+    }
+
+    .expContent3 p {
+        font-size: 20px;
+    }
+
+    .sliderBtn,
+    .expBtn,
+    .portfolioBtn,
+    .submitBtn,
+    .skillBtn {
+        width: 150px;
+        height: 43px;
+        font-size: 17px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .appDesign,
+    .webDesign,
+    .productDesign {
+        padding: 20px;
+    }
+
+    .appDesign,
+    .appTitle,
+    .webTitle,
+    .productTitle {
+        font-size: 28px;
+    }
+
+    .addressTitle h2 {
+        font-size: 32px;
+    }
+
+    .AboutContent h1.aboutTitle,
+    h1.aboutTitle2 {
+        font-size: 34px;
+    }
+
+    input,
+    textarea {
+        margin-bottom: 25px !important;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+        font-size: 18px;
+    }
+
+    .addressTitle p {
+        margin-bottom: -5px;
+    }
+
+    i.fa-brands.fa-dribbble.footer.text-center,
+    .fa-linkedin-in,
+    .fa-instagram,
+    .fa-behance,
+    .fa-dribbble {
+        width: 38px;
+        height: 38px;
+        padding: 10px;
+    }
+
+    .Footerlink {
+        font-size: 16px;
+    }
+
+    .ImgTxt {
+        background: rgb(255, 89, 90);
+        padding: 10px 0px;
+        width: 271px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    #homeSlider {
+        height: 133vh;
+    }
+
+    .sliderSubjectImg {
+        background-size: 80%;
+    }
+
+    .sliderWrapper .bgTxt {
+        font-size: 218px !important;
+    }
+
+    .aboutSlider,
+    .servicesSlider,
+    .PortfolioSlider {
+        height: 70vh;
+    }
+
+    .AboutBgWrapper .aboutBgTxt,
+    .servicesBgWrapper .servicesBgTxt,
+    .PortfolioBgWrapper .PortfolioBgTxt {
+        font-size: 260px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    section {
+        padding: 65px 0px;
+    }
+
+    #homeSlider {
+        height: 73vh;
+    }
+
+    .brand-logo img {
+        max-width: 35px !important;
+    }
+
+    .navbar .nav-link {
+        font-size: 14px;
+        transition: 0.3s ease;
+    }
+
+    button.button {
+        max-width: 140px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .sliderWrapper .bgTxt {
+        font-size: 178px !important;
+        top: 160px;
+    }
+
+    .sliderContent1 .slider-h4 {
+        margin-top: 100px;
+        font-size: 16px;
+    }
+
+    .sliderTitle {
+        margin-bottom: -5px !important;
+    }
+
+    .socialMedia {
+        margin-top: 160px;
+    }
+
+    .sliderContent1 p {
+        font-size: 18px;
+        margin-bottom: -10px;
+    }
+
+    .sliderSubjectImg {
+        background-color: 110%;
+    }
+
+    .AboutBgWrapper span.aboutBgTxt {
+        font-size: 200px;
+        top: 40px;
+    }
+
+    .PortfolioBgWrapper span.PortfolioBgTxt {
+        font-size: 230px;
+        top: 28px;
+    }
+
+    .PortfolioBgWrapper span.PortfolioBgTxt {
+        font-size: 200px;
+        top: 60px;
+    }
+
+    .projectFilter li {
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    .projectBox {
+        width: 205px;
+        height: 197px;
+        margin: 0px 12px 30px;
+    }
+
+    .servicesBgWrapper span.servicesBgTxt {
+        font-size: 240px;
+        top: 38px;
+    }
+
+    .expContent,
+    .expContent2 img {
+        max-width: 200px;
+        height: 223px;
+    }
+
+    .experienceYear h2,
+    .experienceYear2 h2 {
+        font-size: 14px;
+    }
+
+    .experienceYear h2 span,
+    .experienceYear2 h2 span {
+        font-size: 50px;
+    }
+
+    .expContent h2 {
+        font-size: 16px;
+    }
+
+    .expContent h2 span {
+        font-size: 50px;
+    }
+
+    .expContent2 h2 span {
+        font-size: 50px;
+        padding-right: 20px;
+    }
+
+    img.img-fluid {
+        max-width: 81%;
+        max-height: 100%;
+    }
+
+    .pb-4.skillTitle {
+        font-size: 34px;
+        margin-bottom: -5px;
+    }
+
+    .details span {
+        font-size: 14px;
+    }
+
+    .expContent3 .expTitle,
+    .servicesTitle h1,
+    .portfolioTitle h1,
+    .aboutTitle2 {
+        font-size: 31px;
+    }
+
+    .expContent3 p {
+        font-size: 16px;
+    }
+
+    .sliderBtn,
+    .expBtn,
+    .portfolioBtn,
+    .submitBtn,
+    .skillBtn {
+        max-width: 150px;
+        height: 43px;
+        font-size: 17px;
+    }
+
+    .prot1,
+    .prot2,
+    .prot3 {
+        max-width: 190px;
+        height: 190px;
+    }
+
+    .appDesign,
+    .appTitle,
+    .webTitle,
+    .productTitle {
+        font-size: 20px;
+        margin-bottom: -5px;
+    }
+
+    .serviceLogo {
+        width: 40px;
+    }
+
+    /* 
+    .myTabs .tabsTitle .tabButton {
+        padding: 20px;
+        font-size: 16px;
+    }
+    .protfolio1, .protfolio2, .protfolio3 {
+        max-width: 190px;
+        height: 190px;
+    }
+   .ImgTxt {
+        padding: 10px 0px;
+        width: 194px;
+    }
+    .ImgTxt h2 {
+        font-size: 16px;
+        line-height: 10px;
+    }
+    
+    .ImgTxt p {
+        font-size: 14px;
+    }
+    .ImgTxt {
+        padding: 10px 0px;
+        width: 193px;
+    }
+    .protfolio3 {
+        width: 190px;
+    }
+    .prot1:hover .ImgTxt, 
+    .prot2:hover .ImgTxt, 
+    .prot3:hover .ImgTxt,
+    .protfolio1:hover .ImgTxt, 
+    .protfolio2:hover .ImgTxt, 
+    .protfolio3:hover .ImgTxt {
+        opacity: 1;
+        margin-top: -78px
+    }
+    .protfolio3 .comingSoon h2 {
+        font-size: 17px;
+    }
+     */
+    .addressTitle h2 {
+        font-size: 26px;
+    }
+
+    input,
+    textarea {
+        margin-bottom: 20px !important;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+        font-size: 16px;
+    }
+
+    .addressTitle p {
+        margin-bottom: -5px;
+        font-size: 16px;
+    }
+
+    i.fa-brands.fa-dribbble.footer.text-center,
+    .fa-linkedin-in,
+    .fa-instagram,
+    .fa-behance,
+    .fa-dribbble {
+        width: 38px;
+        height: 38px;
+        padding: 10px;
+    }
+
+    .Footerlink {
+        font-size: 16px;
+    }
+
+    .aboutImgBox {
+        height: 63.3%;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    #homeSlider {
+        height: 70vh;
+    }
+
+    .sliderWrapper .bgTxt {
+        top: 90px;
+        font-size: 125px !important;
+    }
+
+    .sliderTitle {
+        top: 90px;
+    }
+
+    .sliderContent1 p {
+        font-size: 18px;
+    }
+
+    .sliderSubjectImg {
+        background: none;
+    }
+
+    img.img-fluid {
+        max-width: 81%;
+        max-height: 100%;
+    }
+
+    .socialMedia {
+        margin-top: -381px;
+        margin-right: 1px;
+    }
+
+    .AboutBgWrapper span.aboutBgTxt {
+        font-size: 145px;
+        top: 60px;
+    }
+
+    .aboutImgBox {
+        height: 97.5%;
+    }
+
+    /* .SaticfiedM {
+        margin-right: 0 !important;
+    } */
+    .aboutContent h1,
+    .servicesContent h1,
+    .PortfolioContent h1 {
+        font-size: 126px;
+    }
+
+
+    .expContent,
+    .expContent2 img {
+        max-width: 200px;
+        height: 223px;
+    }
+
+    .expContent3 {
+        overflow: hidden;
+        padding-left: 15px;
+    }
+
+    .expContent3 .expTitle,
+    .servicesTitle h1,
+    .portfolioTitle h1,
+    .aboutTitle2,
+    .skillTitle {
+        font-size: 42px !important;
+    }
+
+    .aboutTitle2 {
+        padding-right: 4rem;
+    }
+
+    .expContent3 p {
+        font-size: 18px;
+    }
+
+    .expContent2 h2 {
+        font-size: 20px;
+    }
+
+    .expContent2 h2 span {
+        font-size: 60px;
+        padding-right: 20px;
+    }
+
+    .appDesign {
+        text-align: center;
+    }
+
+    .applogo,
+    .weblogo,
+    .productlogo {
+        margin: auto;
+    }
+
+    .serviceLogo {
+        width: 43px !important;
+    }
+
+    .appDesign,
+    .appTitle,
+    .webTitle,
+    .productTitle {
+        font-size: 32px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .appDesign .appDec,
+    .webDec,
+    .productDec {
+        font-size: 20px !important;
+        text-align: center;
+    }
+
+    .prot1,
+    .prot2,
+    .prot3 {
+        max-width: 215px;
+        height: 206px;
+    }
+
+    .ImgTxt {
+        padding: 10px 0px;
+        width: 215px !important;
+    }
+
+    .ImgTxt h2 {
+        font-size: 18px;
+        line-height: 10px;
+    }
+
+    .protfolio1,
+    .protfolio2,
+    .protfolio3 {
+        max-width: 215px;
+        height: 210px;
+    }
+
+    .addressTitle h2 {
+        font-size: 35px;
+    }
+
+    .skill-bar {
+        padding-right: 1rem;
+    }
+
+    .contactForm {
+        padding-left: 21px;
+        padding-bottom: 40px;
+    }
+
+    .contactForm {
+        padding: 0rem 2rem 4rem 2rem;
+    }
+
+    .addressContent {
+        padding: 0 2rem 0 2rem;
+    }
+
+    .address {
+        margin-bottom: 2.5rem !important;
+    }
+}
+
+/*  */
+@media only screen and (max-width: 575px) {
+    #homeSlider {
+        height: 72vh;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0 20px !important;
+    }
+
+    .bgTxt {
+        display: none;
+    }
+
+    .sliderTitle {
+        padding-right: 0 !important;
+    }
+
+    .sliderWrapper .bgTxt {
+        top: 90px;
+    }
+
+    .socialMedia {
+        display: none;
+    }
+
+    .sliderTitle {
+        padding-right: 5rem;
+        top: 90px;
+    }
+
+    .sliderContent1 p {
+        font-size: 22px;
+        padding-right: 5px;
+    }
+
+    .sliderSubjectImg {
+        background: none;
+    }
+
+    img.img-fluid {
+        max-width: 81%;
+        max-height: 100%;
+    }
+
+    .aboutImgBox {
+        height: 97.5%;
+    }
+
+    .aboutContent h1,
+    .servicesContent h1,
+    .PortfolioContent h1 {
+        font-size: 75px;
+    }
+
+    .protfolio3 .comingSoon h2 {
+        font-size: 28px;
+    }
+
+    .AboutBgWrapper span.aboutBgTxt {
+        display: none;
+    }
+
+    .PortfolioBgWrapper span.PortfolioBgTxt {
+        display: none;
+    }
+
+    .PortfolioBgWrapper span.PortfolioBgTxt {
+        display: none;
+    }
+
+    .projectFilter li {
+        padding: 0px 8px 0px 8px;
+        font-size: 18px;
+    }
+
+    .servicesBgWrapper span.servicesBgTxt {
+        display: none;
+    }
+
+    .expContent,
+    .expContent2 img {
+        max-width: 265px;
+        height: 321px;
+        margin-left: 25px;
+        margin: auto;
+    }
+
+    .expContent2 {
+        margin: auto;
+    }
+
+    .expContent3 {
+        overflow: hidden;
+        padding-left: 15px;
+        margin-top: 20px;
+    }
+
+    .expContent3 .expTitle,
+    .servicesTitle h1,
+    .portfolioTitle h1,
+    .aboutTitle2,
+    .skillTitle {
+        font-size: 35px !important;
+    }
+
+    .aboutTitle2 {
+        padding-right: 0;
+    }
+
+    .expContent3 p {
+        font-size: 18px;
+    }
+
+    .expContent2 h2 {
+        font-size: 20px;
+    }
+
+    .expContent2 h2 span {
+        font-size: 60px;
+        padding-right: 20px;
+    }
+
+    .appDesign {
+        text-align: center;
+    }
+
+    .applogo,
+    .weblogo,
+    .productlogo {
+        margin: auto;
+    }
+
+    .serviceLogo {
+        width: 43px !important;
+    }
+
+    .appDesign,
+    .appTitle,
+    .webTitle,
+    .productTitle {
+        font-size: 32px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .appDesign .appDec,
+    .webDec,
+    .productDec {
+        font-size: 20px !important;
+        text-align: center;
+    }
+
+    .prot1,
+    .prot2,
+    .prot3 {
+        max-width: 215px;
+        height: 206px;
+    }
+
+    .ImgTxt {
+        padding: 10px 0px;
+        width: 330px !important;
+    }
+
+    .protfolio3 {
+        width: 330px;
+    }
+
+    .ImgTxt h2 {
+        font-size: 20px;
+        line-height: 10px;
+    }
+
+    .projectBox {
+        width: 373px;
+        height: 295px;
+        margin: 0px 30px 38px;
+    }
+
+    .protfolio1,
+    .protfolio2,
+    .protfolio3 {
+        max-width: 330px;
+        height: 350px;
+        margin: auto;
+    }
+
+    .addressTitle h2 {
+        font-size: 35px;
+    }
+
+    .skill-bar {
+        padding-right: 1rem;
+    }
+
+    .contactForm {
+        padding-left: 21px;
+        padding-bottom: 40px;
+    }
+
+    .contactForm {
+        padding: 0rem 2rem 4rem 2rem;
+    }
+
+    .addressContent {
+        padding: 0 2rem 0 2rem;
+    }
+
+    .address {
+        margin-bottom: 2.5rem !important;
+    }
+}
